@@ -149,7 +149,7 @@ body {
 
 .card-value {
     transform: scale(.9);
-    transition: transform 500ms ease-in-out;
+    transition: transform 400ms ease-in-out;
 }
 
 .card-front:hover .card-value {
@@ -160,7 +160,7 @@ body {
     position: absolute;
     width: 47px;
     height: 47px;
-    transition: width 500ms ease-in-out, height 500ms ease-in-out;
+    transition: width 400ms ease-in-out, height 400ms ease-in-out;
 }
 
 .card-face:hover .cob-web {
@@ -194,7 +194,7 @@ body {
 .spider {
     align-self: flex-start;
     transform: translateY(-10px);
-    transition: transform 500ms ease-in-out;
+    transition: transform 400ms ease-in-out;
 }
 
 .card-back:hover .spider {
